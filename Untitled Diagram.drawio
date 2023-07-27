@@ -1,9 +1,104 @@
-<mxfile host="app.diagrams.net" modified="2023-07-27T15:16:03.049Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" version="21.6.5" etag="2BBvNGDwZzj6m43dOx1L" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-27T15:52:06.793Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="cG1t6VfflMluBSdBIHfB" version="21.6.5" type="github">
   <diagram name="Page-1" id="ytKE4wRBsZciC99P_eWf">
-    <mxGraphModel>
+    <mxGraphModel dx="794" dy="453" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="8gyEuw2Vzh4wcx8MJ5XA-1" value="HospitalStay" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;startSize=25;container=0;collapsible=0;rounded=1;arcSize=14;dropTarget=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="720" height="1105" as="geometry" />
+        </mxCell>
+        <mxCell id="8gyEuw2Vzh4wcx8MJ5XA-2" value="Admitted" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="8gyEuw2Vzh4wcx8MJ5XA-1">
+          <mxGeometry x="327" y="33" width="82" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="8gyEuw2Vzh4wcx8MJ5XA-3" value="Undergoing Treatment" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="8gyEuw2Vzh4wcx8MJ5XA-1">
+          <mxGeometry x="280" y="135" width="175" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="8gyEuw2Vzh4wcx8MJ5XA-4" value="Doctor Prepares Discharge Instructions" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="8gyEuw2Vzh4wcx8MJ5XA-1">
+          <mxGeometry x="222" y="237" width="291" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="8gyEuw2Vzh4wcx8MJ5XA-5" value="Doctor Schedules Follow-up and Orders Medications" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="8gyEuw2Vzh4wcx8MJ5XA-1">
+          <mxGeometry x="175" y="339" width="386" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="8gyEuw2Vzh4wcx8MJ5XA-6" value="Patient Selects Language for Instructions" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="8gyEuw2Vzh4wcx8MJ5XA-1">
+          <mxGeometry x="214" y="441" width="308" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="8gyEuw2Vzh4wcx8MJ5XA-7" value="Assess Health Literacy" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="8gyEuw2Vzh4wcx8MJ5XA-1">
+          <mxGeometry x="281" y="543" width="174" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="8gyEuw2Vzh4wcx8MJ5XA-8" value="Instructions Generated in AVOMD (GPT-enabled) in Patient&#39;s Language and Literacy Level" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="8gyEuw2Vzh4wcx8MJ5XA-1">
+          <mxGeometry x="43" y="645" width="650" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="8gyEuw2Vzh4wcx8MJ5XA-9" value="Patient Chooses to Play Games or Quizzes" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="8gyEuw2Vzh4wcx8MJ5XA-1">
+          <mxGeometry x="211" y="747" width="314" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="8gyEuw2Vzh4wcx8MJ5XA-10" value="Quiz Patient on Illness and Medication" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="8gyEuw2Vzh4wcx8MJ5XA-1">
+          <mxGeometry x="224" y="849" width="288" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="8gyEuw2Vzh4wcx8MJ5XA-11" value="Ready For Discharge" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="8gyEuw2Vzh4wcx8MJ5XA-1">
+          <mxGeometry x="288" y="951" width="159" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="8gyEuw2Vzh4wcx8MJ5XA-12" value="Discharged" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="8gyEuw2Vzh4wcx8MJ5XA-1">
+          <mxGeometry x="321" y="1053" width="93" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="8gyEuw2Vzh4wcx8MJ5XA-13" value="Treatment Begins" style="curved=1;startArrow=none;;exitX=0.49790396341463417;exitY=0.9852941176470589;entryX=0.501875;entryY=0;rounded=0;" edge="1" parent="8gyEuw2Vzh4wcx8MJ5XA-1" source="8gyEuw2Vzh4wcx8MJ5XA-2" target="8gyEuw2Vzh4wcx8MJ5XA-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8gyEuw2Vzh4wcx8MJ5XA-14" value="Treatment Concludes" style="curved=1;startArrow=none;;exitX=0.501875;exitY=0.9852941176470589;entryX=0.5011275773195877;entryY=0;rounded=0;" edge="1" parent="8gyEuw2Vzh4wcx8MJ5XA-1" source="8gyEuw2Vzh4wcx8MJ5XA-3" target="8gyEuw2Vzh4wcx8MJ5XA-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8gyEuw2Vzh4wcx8MJ5XA-15" value="Instructions Prepared" style="curved=1;startArrow=none;;exitX=0.5011275773195877;exitY=0.9852941176470589;entryX=0.49955472797927464;entryY=0;rounded=0;" edge="1" parent="8gyEuw2Vzh4wcx8MJ5XA-1" source="8gyEuw2Vzh4wcx8MJ5XA-4" target="8gyEuw2Vzh4wcx8MJ5XA-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8gyEuw2Vzh4wcx8MJ5XA-16" value="Follow-up Scheduled &amp; Meds Ordered" style="curved=1;startArrow=none;;exitX=0.49955472797927464;exitY=0.9852941176470589;entryX=0.4994419642857143;entryY=0;rounded=0;" edge="1" parent="8gyEuw2Vzh4wcx8MJ5XA-1" source="8gyEuw2Vzh4wcx8MJ5XA-5" target="8gyEuw2Vzh4wcx8MJ5XA-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8gyEuw2Vzh4wcx8MJ5XA-17" value="Language Selected" style="curved=1;startArrow=none;;exitX=0.4994419642857143;exitY=0.9852941176470589;entryX=0.4990122126436782;entryY=0;rounded=0;" edge="1" parent="8gyEuw2Vzh4wcx8MJ5XA-1" source="8gyEuw2Vzh4wcx8MJ5XA-6" target="8gyEuw2Vzh4wcx8MJ5XA-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8gyEuw2Vzh4wcx8MJ5XA-18" value="Literacy Assessed" style="curved=1;startArrow=none;;exitX=0.4990122126436782;exitY=0.9852941176470589;entryX=0.4997355769230769;entryY=0;rounded=0;" edge="1" parent="8gyEuw2Vzh4wcx8MJ5XA-1" source="8gyEuw2Vzh4wcx8MJ5XA-7" target="8gyEuw2Vzh4wcx8MJ5XA-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8gyEuw2Vzh4wcx8MJ5XA-19" value="Instructions Generated" style="curved=1;startArrow=none;;exitX=0.4997355769230769;exitY=0.9852941176470589;entryX=0.499452627388535;entryY=0;rounded=0;" edge="1" parent="8gyEuw2Vzh4wcx8MJ5XA-1" source="8gyEuw2Vzh4wcx8MJ5XA-8" target="8gyEuw2Vzh4wcx8MJ5XA-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8gyEuw2Vzh4wcx8MJ5XA-20" value="Games and Quizzes Chosen" style="curved=1;startArrow=none;;exitX=0.3723501274763488;exitY=0.9852941176470589;entryX=0.360826180651297;entryY=0;rounded=0;" edge="1" parent="8gyEuw2Vzh4wcx8MJ5XA-1" source="8gyEuw2Vzh4wcx8MJ5XA-9" target="8gyEuw2Vzh4wcx8MJ5XA-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="246" y="815" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8gyEuw2Vzh4wcx8MJ5XA-21" value="Quiz Passed" style="curved=1;startArrow=none;;exitX=0.4994032118055556;exitY=0.9852941176470589;entryX=0.5020636792452831;entryY=0;rounded=0;" edge="1" parent="8gyEuw2Vzh4wcx8MJ5XA-1" source="8gyEuw2Vzh4wcx8MJ5XA-10" target="8gyEuw2Vzh4wcx8MJ5XA-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8gyEuw2Vzh4wcx8MJ5XA-22" value="Quiz Failed" style="curved=1;startArrow=none;;exitX=0.6702897148714086;exitY=0;entryX=0.6561892926209099;entryY=0.9852941176470589;rounded=0;" edge="1" parent="8gyEuw2Vzh4wcx8MJ5XA-1" source="8gyEuw2Vzh4wcx8MJ5XA-10" target="8gyEuw2Vzh4wcx8MJ5XA-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="518" y="815" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8gyEuw2Vzh4wcx8MJ5XA-23" value="Discharge Approved" style="curved=1;startArrow=none;;exitX=0.5020636792452831;exitY=0.9852941176470589;entryX=0.5035282258064516;entryY=0;rounded=0;" edge="1" parent="8gyEuw2Vzh4wcx8MJ5XA-1" source="8gyEuw2Vzh4wcx8MJ5XA-11" target="8gyEuw2Vzh4wcx8MJ5XA-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
